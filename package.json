@@ -1,0 +1,13 @@
+{
+  "name": "sanae",
+  "version": "0.0.1",
+  "description": "Cross-platform robot frame, small and beautiful.",
+  "main": "lib/index.js",
+  "workspaces":[
+    "src/*",
+    "packages/*"
+  ],
+  "repository": "https://github.com/lisk809/sanae",
+  "author": "Lisk",
+  "license": "MIT"
+}
