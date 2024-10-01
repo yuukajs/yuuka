@@ -1,22 +1,29 @@
 {
   "name": "@yuukajs/yuuka",
-  "version": "0.0.1",
+  "version": "0.0.1-dev20241001",
   "description": "Cross-platform robot frame, small and beautiful.",
   "type": "module",
+  "types":"./lib/index.d.ts",
   "main": "lib/index.js",
-  "files":[
+  "files": [
     "lib",
     "license",
     "readme.md"
   ],
   "scripts": {
-    "build":"tsc && tsc-alias",
+    "build": "tsc && tsc-alias",
     "lint": "eslint src --ext .ts --fix --ignore-path .gitignore"
   },
-  "repository": "https://github.com/yuukajs/yuuka",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuukajs/yuuka.git"
+  },
   "author": "Lisk <liskqwq@gmail.com> (https://github.com/Lisk809)",
   "engines": {
     "node": ">= 18"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "license": "MIT",
   "devDependencies": {
