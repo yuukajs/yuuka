@@ -1,10 +1,16 @@
 {
-  "name": "yuuka",
+  "name": "@yuukajs/yuuka",
   "version": "0.0.1",
   "description": "Cross-platform robot frame, small and beautiful.",
   "type": "module",
   "main": "lib/index.js",
+  "files":[
+    "lib",
+    "license",
+    "readme.md"
+  ],
   "scripts": {
+    "build":"tsc && tsc-alias",
     "lint": "eslint src --ext .ts --fix --ignore-path .gitignore"
   },
   "repository": "https://github.com/yuukajs/yuuka",
