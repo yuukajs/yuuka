@@ -1,58 +1,62 @@
 <p align="center">
-  <a href="https://www.github.com/lisk809/sanae">
-    <img src="images/logo.png" width="200" height="200" alt="momizi">
+  <a href="https://www.github.com/lisk809/yuuka">
+    <img src="https://yuuka.js.org/logo.png" width="200" height="200" alt="yuuka">
   </a>
 </p>
 
 <div align="center">
 
-# Momizi
+# [Yuuka](https://yuuka.js.org/)
 
-<p align="center">✨跨平台聊天机器人框架✨</p>
+> When a soul lodges, flowers bloom.
+
+
+#### Cross-platform chat robot framework.
 
 
 </div>
 
 <p align="center">
-  <a href="https://raw.githubusercontent.com/lisk809/sanae/main/LICENSE">
-    <img src="https://img.shields.io/github/license/lisk809/sanae" alt="license">
-  </a>
-  <a href="https://github.com/lisk809/momizi/releases">
-    <img src="https://img.shields.io/github/v/release/lisk809/sanae?color=blueviolet&include_prereleases" alt="release">
-  </a>
+  ![NPM Downloads](https://img.shields.io/npm/dw/yuuka)
+  ![GitHub License](https://img.shields.io/github/license/yuukajs/yuuka)
+  ![Node Current](https://img.shields.io/node/v/yuuka)
+  ![npm bundle size](https://img.shields.io/bundlephobia/min/yuuka)
+  ![GitHub Repo stars](https://img.shields.io/github/stars/yuukajs/yuuka)
+  ![Release](https://img.shields.io/github/v/release/yuukajs/yuuka?color=blueviolet&include_prereleases)
 </p>
 
-<p align="center">
-  <a href="https://sanae.js.org/">文档</a>
-  ·
-  <a href="https://sanae.js.org/starter">开始使用</a>
-</p>
-<p align="center">
-  <a href="https://sanae.js.org/">项目主页:momizi</a>
-</p>
+## 特性
+
+### 高性能
+
+开发者以高性能为设计原则，力为用户打造高性能，轻量化框架
+
+### 优秀生态
+
+`Yuuka`有许多优秀社区开发者，为`Yuuka`生态建设提供充足动力，优秀活力，持续能力
 
 
 ## 快速开始
 
 ```bash
-npm install sanae -g
+npm install yuuka -g
 ```
 
 `sanae`用来实现跨平台的设计模式是适配器，因此，仅仅sanae本体是不能直接使用的，你还需要对于不同平台的适配器，比如:
 
 ```bash
-npm install @sanaejs/adapter-console
+npm install @yuukajs/adapter-console
 ```
 
-还需在sanae应用目录下的`sanae.yaml`中写上
+还需在sanae应用目录下的`yuuka.yaml`中写上
 ```yaml
 adapter:
-  @sanaejs/adapter-console: {}
+  @yuukajs/adapter-console: {}
 ```
 
 然后
 ```bash
-npx sanae start
+npx yuuka start
 ```
 
-如果没有报错信息，恭喜🎉，成功开启使用sanae的第一个项目
+如果没有报错信息，恭喜🎉，成功开始`Yuuka`的第一个项目
