@@ -20,7 +20,6 @@
   [![GitHub License](https://img.shields.io/github/license/yuukajs/yuuka)](https://github.com/yuukajs/yuuka/blob/main/license)
   [![Node Current](https://img.shields.io/node/v/yuuka)](https://github.com/yuukajs/yuuka/blob/main/package.json)
   [![npm bundle size](https://img.shields.io/bundlephobia/min/yuuka)](https://yuuka.js.org)
-  [![GitHub Repo stars](https://img.shields.io/github/stars/yuukajs/yuuka)](https://github.com/yuukajs/yuuka)
   [![Release](https://img.shields.io/github/v/release/yuukajs/yuuka?color=blueviolet&include_prereleases)](hhttps://github.com/yuukajs/yuuka/releases)
 
 ## 特性
