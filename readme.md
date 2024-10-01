@@ -18,11 +18,17 @@
 
 <p align="center">
   ![NPM Downloads](https://img.shields.io/npm/dw/yuuka)
+
   ![GitHub License](https://img.shields.io/github/license/yuukajs/yuuka)
+
   ![Node Current](https://img.shields.io/node/v/yuuka)
+
   ![npm bundle size](https://img.shields.io/bundlephobia/min/yuuka)
+
   ![GitHub Repo stars](https://img.shields.io/github/stars/yuukajs/yuuka)
+
   ![Release](https://img.shields.io/github/v/release/yuukajs/yuuka?color=blueviolet&include_prereleases)
+
 </p>
 
 ## 特性
