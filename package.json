@@ -1,13 +1,21 @@
 {
-  "name": "sanae",
+  "name": "yuuka",
   "version": "0.0.1",
   "description": "Cross-platform robot frame, small and beautiful.",
+  "type": "module",
   "main": "lib/index.js",
-  "workspaces":[
-    "src/*",
-    "packages/*"
-  ],
-  "repository": "https://github.com/lisk809/sanae",
-  "author": "Lisk",
-  "license": "MIT"
+  "scripts": {
+    "lint": "eslint src --ext .ts --fix --ignore-path .gitignore"
+  },
+  "repository": "https://github.com/yuukajs/yuuka",
+  "author": "Lisk <liskqwq@gmail.com> (https://github.com/Lisk809)",
+  "license": "MIT",
+  "devDependencies": {
+    "@stylistic/eslint-plugin-ts": "^2.8.0",
+    "@types/node": "^22.5.5",
+    "@yuukajs/eslint-config": "0.0.2-0",
+    "eslint": "8",
+    "tsc-alias": "^1.8.10",
+    "typescript": "^5.6.2"
+  }
 }
