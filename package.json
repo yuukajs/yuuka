@@ -1,6 +1,6 @@
 {
   "name": "@yuukajs/yuuka",
-  "version": "0.0.1-dev20241002",
+  "version": "0.0.1-dev20241011",
   "description": "Cross-platform robot frame, small and beautiful.",
   "type": "module",
   "types":"./lib/index.d.ts",
