@@ -3,12 +3,12 @@ import { Awaitable } from '@/types'
 export abstract class Runtime {
   config: any
   uses: any
-  constructor(config, callback) {
+  constructor(config:any, callback:()=>void) {
     this.config = config
     callback()
   }
 
-  abstract run(task): Awaitable<boolean|undefined>
-  abstract watch(watcher): Awaitable<boolean|undefined>
-  abstract use(lib): Awaitable<boolean|undefined>
+  abstract run(task:(...args:any[])=>any): Awaitable<boolean|undefined>
+  abstract watch(watcher:(...args:any[])=>any): Awaitable<boolean|undefined>
+  abstract use(lib:any): Awaitable<boolean|undefined>
 }
