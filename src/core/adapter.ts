@@ -1,5 +1,5 @@
-import { Application } from '@/types'
-export interface Adapter extends Application{
+import { Application, Awaitable, EventPool, DefaultDefine } from '@/types'
+export interface Adapter<T> extends Application<T>{
   user?: User
   self?: Self
   group?: Group
@@ -9,15 +9,15 @@ export interface User{
 }
 
 export interface Self{
-  sendMsg(sender, msg): Awaitable<boolean|undefined>
-  events: Proxy
-  recallMsg(msgId): Awaitable<boolean|undefined>
+  sendMsg(sender:DefaultDefine.Sender, msg:DefaultDefine.Message): Awaitable<boolean|undefined>
+  eventPool: EventPool<DefaultDefine.Event, DefaultDefine.Event[]>
+  recallMsg(msgId:DefaultDefine.Message["msgId"]): Awaitable<boolean|undefined>
 }
 
 export interface Group{
 
 }
 
-export function defineAdapter(adapter: Adapter) {
+export function defineAdapter<T>(adapter: Adapter<T>) {
   return adapter
 }
